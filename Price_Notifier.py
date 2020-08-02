@@ -50,5 +50,6 @@ def notify():
 
 while(True):
     check_price()
-    time.sleep(60*60*2)
+    time_interval=60*60*2
+    time.sleep(time_interval)
     #Now it would run in the background and check the price every 2 hours
